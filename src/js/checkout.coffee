@@ -7,7 +7,7 @@ $document = $(document)
 $document.ready ->
 
   step = 1
-  message = encodeURIComponent 'Get Stoned With Me!'
+  message = encodeURIComponent 'Get Lux With Me!'
   isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
 
   $modal = $('.checkout-modal.modal')
@@ -127,7 +127,7 @@ $document.ready ->
 
     Shop.analytics.track 'Completed Checkout Step', step: 3
 
-    setupReferral 'https://stoned.audio/$/' + @data.get('referrerId')
+    setupReferral 'https://lux.audio/$/' + @data.get('referrerId')
     $('.ref-text').css 'opacity', 1
 
     $document.on 'click', '.modal-close', (e) ->

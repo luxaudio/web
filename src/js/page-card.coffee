@@ -41,14 +41,14 @@ if location.pathname.indexOf('card') >= 0
         cardCtx.font = '900 16px Lato'
         cardCtx.fillStyle = '#46BBA5'
         cardCtx.fillText 'GET READY TO', 58, 326.5
-        cardCtx.fillText 'GET STONED!', 68, 352.5
+        cardCtx.fillText 'GET LUX!', 68, 352.5
         cardCtx.fillText 'LOVE, ' + name.toUpperCase(), 78, 378.5
 
         renderCtx.drawImage cardFull, 0, 0, 1280, 981
         renderCtx.font = '900 32px Lato'
         renderCtx.fillStyle = '#46BBA5'
         renderCtx.fillText 'GET READY TO', 756, 653
-        renderCtx.fillText 'GET STONED!', 776, 705
+        renderCtx.fillText 'GET LUX!', 776, 705
         renderCtx.fillText 'LOVE, ' + name.toUpperCase(), 796, 757
 
     $downloadButton = $('a.download.button')

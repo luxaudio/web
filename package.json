@@ -1,9 +1,9 @@
 {
-  "name": "stoned.audio",
+  "name": "lux.audio",
   "version": "0.1.4",
   "private": true,
-  "description": "Website for Stoned Audio",
-  "author": "Stoned Audio, LLC",
+  "description": "Website for Lux Audio",
+  "author": "Lux Audio, LLC",
   "license": "BSD-3-Clause",
   "main": "public/js/app.js",
   "dependencies": {

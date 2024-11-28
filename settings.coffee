@@ -1,32 +1,32 @@
-url = 'https://stoned.audio'
+url = 'https://lux.audio'
 
 description = """
   Huge sound, noise isolation, in-ear mic, charging case, intuitive controls and zero wires.
   """
 
 email =
-  subject: "You need to get Stoned"
+  subject: "You need to get Lux"
   body: """
     #{description}
 
-    I'm getting Stoned. Are you?"""
+    I'm Lux. Are you?"""
 
 twitter =
-  username: 'StonedHQ'
-  hashtags: 'stoned,getstoned,stonedlife'
-  text:     "I'm getting Stoned. Are you?"
+  username: 'luxdefi'
+  hashtags: 'lux,luxlife,getlux'
+  text:     "I'm Lux. Are you?"
 
 pinterest =
-  text: "Stoned Earbuds – #{description}"
+  text: "Lux Earbuds – #{description}"
 
 module.exports =
   site:
-    title:     'Stoned Audio'
-    name:      'stoned.audio'
+    title:     'Lux Audio'
+    name:      'lux.audio'
     url:       url
-    copyright: '© Stoned Audio 2017'
+    copyright: '© Lux Audio 2024'
 
-  shipDate: 'May 2017'
+  shipDate: 'January 2025'
   shipping:
     prelaunch2016december:
       date: 'January 2017'
@@ -34,6 +34,8 @@ module.exports =
       date: 'April 2017'
     3:
       date: 'May 2017'
+    4:
+      date: 'January 2025'
 
   meta:
     description: description
@@ -41,13 +43,13 @@ module.exports =
     facebook:
       appid:       '1648878842071733'
       description: description
-      image:       'https://stoned.audio/img/fbshare.jpg'
-      title:       'Get Stoned'
+      image:       'https://lux.audio/img/fbshare.jpg'
+      title:       'Get Lux'
 
     twitter:
       description: description
-      image:       'https://stoned.audio/img/twittershare.jpg'
-      title:       'Get Stoned'
+      image:       'https://lux.audio/img/twittershare.jpg'
+      title:       'Get Lux'
 
   social:
     email:
@@ -56,7 +58,7 @@ module.exports =
       username:  "@#{twitter.username}"
       shareLink: "https://twitter.com/intent/tweet?url=#{encodeURIComponent url}&text=#{encodeURIComponent twitter.text}&hashtags=#{twitter.hashtags}&via=#{twitter.username}&original_referer=#{encodeURIComponent url}"
     facebook:
-      username:  'StonedHQ'
+      username:  'luxdefi'
       shareLink: 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent url
     googlePlus:
       shareLink: 'https://plus.google.com/share?url=' + encodeURIComponent url
@@ -64,22 +66,22 @@ module.exports =
       shareLink: 'http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(url) + '&media=' + encodeURIComponent(url + '/img/fbshare.jpg') + '&description=' + encodeURIComponent pinterest.text
 
   legal:
-    email:   'legal@stoned.audio'
-    name:    'Stoned Audio, LLC'
-    address: '405 Southwest Blvd #200, Kansas City, MO 64108'
-    state:   'Missouri'
+    email:   'legal@lux.audio'
+    name:    'Lux Industries Inc'
+    address: '1824 S. Fairfax Ave, Los Angeles, CA 90019'
+    state:   'California'
 
   contact:
-    email: 'hi@stoned.audio'
+    email: 'hi@lux.audio'
     phone: '(816) 542-0559'
 
   press:
     name:  'Zach Kelling'
-    email: 'press@stoned.audio'
+    email: 'press@lux.audio'
     phone: '(816) 542-0559'
 
   support:
-    email: 'support@stoned.audio'
+    email: 'support@lux.audio'
 
   instafeed:
     images: [

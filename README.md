@@ -1,3 +1,3 @@
-# stoned.audio
-Website for [Stoned Audio](https://stoned.audio), powered by
+# lux.audio
+Website for [Lux Audio](https://lux.audio), powered by
 [Hanzo](https://hanzo.io).

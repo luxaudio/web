@@ -6,7 +6,7 @@ import store     from 'akasha'
 if location.pathname.indexOf('account') >= 0
   # QRCodeDraw = new QRCode.QRCodeDraw()
 
-  message = encodeURIComponent 'Get Stoned With Me!'
+  message = encodeURIComponent 'Get Lux With Me!'
 
   $(document).ready ->
     if !window.client.client.customerToken
@@ -82,8 +82,8 @@ if location.pathname.indexOf('account') >= 0
 
         for referrer in data.referrers
           if referrer.affiliateId == data.affiliateId
-            setupReferral 'https://stoned.audio/$/' + data.referrers[0].id
-            $('#affiliateReferralLink').val 'https://stoned.audio/$/' + referrer.id
+            setupReferral 'https://lux.audio/$/' + data.referrers[0].id
+            $('#affiliateReferralLink').val 'https://lux.audio/$/' + referrer.id
             break
 
         if data.pendingFees?
@@ -96,7 +96,7 @@ if location.pathname.indexOf('account') >= 0
           $('.transfer-number').html nextTransferStr + ' USD'
       else
         $('.referrals.normal').addClass('show')
-        setupReferral 'https://stoned.audio/$/' + data.referrers[0].id
+        setupReferral 'https://lux.audio/$/' + data.referrers[0].id
 
       store.set 'register', true
 
