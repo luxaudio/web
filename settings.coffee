@@ -17,14 +17,14 @@ twitter =
   text:     "I'm Lux. Are you?"
 
 pinterest =
-  text: "Lux Earbuds – #{description}"
+  text: "Lux Earphones – #{description}"
 
 module.exports =
   site:
     title:     'Lux Audio'
     name:      'lux.audio'
     url:       url
-    copyright: '© Lux Audio 2024'
+    copyright: '© Lux Industries Inc 2024'
 
   shipDate: 'January 2025'
   shipping:

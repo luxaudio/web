@@ -50,7 +50,8 @@
     "build": "sake build",
     "prepublishOnly": "sake build",
     "pretest": "sake build",
-    "test": "sake test"
+    "test": "sake test",
+    "watch": "sake watch"
   },
   "devDependencies": {
     "handroll": "^0.17.13"
