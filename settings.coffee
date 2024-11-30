@@ -72,13 +72,13 @@ module.exports =
     state:   'California'
 
   contact:
-    email: 'hi@lux.audio'
-    phone: '(816) 542-0559'
+    email: 'ai@lux.audio'
+    phone: '(913) 777-4443'
 
   press:
     name:  'Zach Kelling'
     email: 'press@lux.audio'
-    phone: '(816) 542-0559'
+    phone: '(913) 777-4443'
 
   support:
     email: 'support@lux.audio'

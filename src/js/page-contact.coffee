@@ -2,7 +2,7 @@ import GMaps from 'gmaps'
 
 if location.pathname.indexOf('contact') >= 0
 
-  address = '405 Southwest Boulevard Suite 200 Kansas City, MO 64108 United States of America'
+  address = '1824 S. Fairfax Ave, Los Angeles, CA 90019 United States of America'
 
   GMaps.geocode
     address: address
