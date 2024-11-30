@@ -14,7 +14,7 @@ email =
 twitter =
   username: 'luxdefi'
   hashtags: 'lux,luxaudio,luxcoin,luxnetwork'
-  text:     "Can't wait to get my LX1.\n\nGet yours at: https://lux.audio\n\n"
+  text:     "Can't wait to get my Lux Earphones.\n\nGet yours at: https://lux.audio\n\n"
 
 pinterest =
   text: "Lux Earphones – #{description}"
