@@ -44,8 +44,8 @@ compileCoffee = ->
     inject:
       $: 'jquery'
 
-  if process.env.PRODUCTION
-    opts.minify = true
+  # if process.env.PRODUCTION
+  #   opts.minify = true
 
   handroll.write opts
 
